@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="text-center mt-5">
+<img src="{% static 'core/images/1.jpg' %}" alt="Akash" class="img-thumbnail" width="250px" height="150px">
+<div class="text-white mt-5">
+<h1 class="font-weight-bold st-font">Hello</h1>
+ <div class="px-6" style="line-height:2rem;">
+    <p>I’ve been designing and developing WordPress websites & Photoshop Editor for more than Three years.I have advanced knowledge in HTML, CSS, JavaScript,Bootstrap.Responsive WordPress Website for (Mobile, Tablet, Desktop, Laptop, iPad, etc).We don’t just import theme but we deeply look into your requirements and create a unique design from scratch.I have completed more than 300+ websites so if you need any help regarding websites I am here for any help. I can design Business, Woo-commerce, Online Store, Blog, Portfolio, Agency, Travel agency, E-commerce,Photography, School and College or other else WordPress website.you are at the right place. I will provide the best quality on the website as you required.I will design a very high quality and fully responive website for you.Are you looking to make a copy of any website, I always try to keep originality, creativity and high-quality results.If you are looking for a beautiful website.I love my work and I make sure my clients are 100% satisfied.My client’s Success is my Success.Feel free to contact me.Money back guarantee.</p>
+ </div>
+  <div>
+  <a href="{% url 'contact' %}" class="btn btn-outline-warning my-10">Hire Me</a>
+  <a href="{% url 'home' %}" class="btn btn-outline-info my-3">Contact</a>
+  </div>
+ </div>
+</div>
+
+{% endblock content %}
